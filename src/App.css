@@ -17,7 +17,7 @@ body {
   width: 100vw;
 }
 
-.navbar {
+/* .navbar {
   background: linear-gradient(
     to center,
     rgba(128, 128, 128, 0) 0%,
@@ -56,7 +56,7 @@ body {
 .logo.zoom-in {
   opacity: 1;
   transform: scale(1);
-}
+} */
 
 .home {
   background-image: url('/src/Images/HomeImages/homeImg.jpg');
@@ -179,7 +179,7 @@ body {
   justify-content: space-between;
 }
 
-/* .footer {
+.footer {
   background: linear-gradient(
     to bottom,
     rgba(128, 128, 128, 0) 0%,
@@ -194,4 +194,4 @@ body {
   z-index: 2;
   bottom: 0;
   left: 0;
-} */
+}

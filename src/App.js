@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { MDBContainer } from 'mdb-react-ui-kit';
 import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
-import Footer from './Components/Footer';
+// import Footer from './Components/Footer';
 import './App.css';
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
       <ToastContainer />
       <Navbar />
       <Home />
-      <Footer />
+      {/* <Footer /> */}
     </MDBContainer>
   );
 }

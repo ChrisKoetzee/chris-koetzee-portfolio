@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+import { ToastContainer } from 'react-toastify';
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { MDBContainer } from 'mdb-react-ui-kit';
+import Navbar from './Components/Navbar';
+import Home from './Pages/Home';
+import Footer from './Components/Footer';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MDBContainer
+      fluid
+      className="d-flex flex-column justify-content-between w-100 h-100"
+      style={{
+        backgroundColor: '#000000',
+        color: '#7FFF00',
+      }}
+    >
+      <ToastContainer />
+      <Navbar />
+      <Home />
+      <Footer />
+    </MDBContainer>
   );
 }
 

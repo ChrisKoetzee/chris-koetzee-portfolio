@@ -5,6 +5,7 @@ import { MDBContainer } from 'mdb-react-ui-kit';
 // import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
 import MyJourney from './Pages/MyJourney';
+import MySkills from './Pages/Skills';
 import Footer from './Components/Footer';
 import './App.css';
 
@@ -22,6 +23,7 @@ function App() {
       {/* <Navbar /> */}
       <Home />
       <MyJourney />
+      <MySkills />
       <Footer />
     </MDBContainer>
   );

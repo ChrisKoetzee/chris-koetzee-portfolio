@@ -68,3 +68,49 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Installations
+
+    1. npm install 
+    2. npm install react-bootstrap bootstrap     and in your index.js -     import 'bootstrap/dist/css/bootstrap.min.css';
+    3. npm install mdb-react-ui-kit     and in your index.js file -     import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+    4. npm install @emailjs/browser     and in your file where using -     import emailjs from '@emailjs/browser';
+    5. npm install dotenv      -     create a .env file in the root and add variables for emailjs
+    6. npm install --save-dev prettier    - create a .prettierrc file in the root and insert :
+            {
+                "semi": true,
+                "singleQuote": true,
+                "tabWidth": 2,
+                "trailingComma": "es5"
+            }
+    7. npm install -g csslint -      then create a .stylelintrc.json and insert :
+            {
+                "extends": "stylelint-config-standard",
+                "rules": {
+                    "indentation": 2,
+                    "string-quotes": "single"
+                }
+            }
+            - To check css files run -   csslint src/**/*.css
+    8. Add to scripts:
+            "scripts": {
+                "format": "prettier --write .",
+                "lint:css": "stylelint '**/*.css'"
+                }
+    9. npm install react-toastify - in you index.js or app.js -      npm install react-toastify
+                                    use the <ToastContainer/> in the file where you want it applied
+                                    where you using the <ToastContainer/> -   import { ToastContainer, toast } from 'react-toastify';
+
+
+
+
+
+    
+
+ 
+
+
+
+
+
+

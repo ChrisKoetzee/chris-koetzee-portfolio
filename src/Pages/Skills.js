@@ -164,3 +164,5 @@ function Skills() {
 }
 
 export default Skills;
+
+// did not take last commit for skills

@@ -19,7 +19,7 @@ body {
 
 @import '~@fortawesome/fontawesome-free/css/all.min.css';
 
-.navbar {
+/* .navbar {
   background: linear-gradient(
     to center,
     rgba(128, 128, 128, 0) 0%,
@@ -44,7 +44,7 @@ body {
   left: 0;
   width: 100%;
   z-index: 2;
-}
+} */
 
 .logo.zoom-out {
   opacity: 0;
@@ -64,8 +64,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 2rem;
-  padding-top: 4rem;
+  /* margin-top: 2rem;
+  padding-top: 4rem; */
 }
 
 #chris-img.slide-out {

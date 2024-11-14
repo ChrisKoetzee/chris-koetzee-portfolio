@@ -2,7 +2,7 @@ import { ToastContainer } from 'react-toastify';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { MDBContainer } from 'mdb-react-ui-kit';
-// import Navbar from './Components/Navbar';
+import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
 import MyJourney from './Pages/MyJourney';
 import MySkills from './Pages/Skills';
@@ -21,7 +21,7 @@ function App() {
       }}
     >
       <ToastContainer />
-      {/* <Navbar /> */}
+      <Navbar />
       <Home />
       <MyJourney />
       <MySkills />

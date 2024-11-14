@@ -59,50 +59,14 @@ body {
   transform: scale(1);
 }
 
-/* .home {
-  background-image: url('/src/Images/HomeImages/homeImg.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 2rem;
-  padding-top: 4rem;
-} */
-/* Overlay effect only for .home section */
 .home {
-  position: relative;
   background-image: url('/src/Images/HomeImages/homeImg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 2rem;
   padding-top: 4rem;
-  height: 100vh;
 }
-
-.home::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
-  z-index: 1;
-}
-
-/* Prevent navbar from fading */
-.navbar {
-  z-index: 3; /* Set above .home and its overlay */
-  position: relative;
-}
-
-/* Content inside .home should appear above the overlay */
-.home * {
-  position: relative;
-  z-index: 2;
-  color: #7FFF00; /* Chartreuse for contrast */
-}
-
 
 #chris-img.slide-out {
   opacity: 0;

@@ -96,9 +96,8 @@ body {
 .skill-project-bx {
   background: #7fff00;
   color: black;
-  border: 5px solid white;
+  border: 8px solid white;
   border-radius: 64px;
-  margin-top: auto;
   padding: 60px 50px;
   text-align: center;
 }
@@ -110,7 +109,7 @@ body {
 }
 
 .skill-slider .item-img {
-  border: 3px solid white;
+  border: 5px solid yellow;
   border-radius: 50%;
   width: 50%;
   margin: 0 auto 15px;
@@ -121,7 +120,6 @@ body {
   border: 8px solid white;
   border-radius: 64px;
   color: black;
-  margin-top: 5em;
   padding: 60px 50px;
   text-align: center;
 }
@@ -140,7 +138,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  min-height: 600px;
+  min-height: 400px;
   max-height: auto; 
 }
 
@@ -159,7 +157,7 @@ body {
 }
 
 .MDBCardImage {
-  max-height: 200px;
+  max-height: 200px;  
   object-fit: cover;
   width: 100%;
 }

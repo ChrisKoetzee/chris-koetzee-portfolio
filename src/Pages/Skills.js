@@ -33,13 +33,13 @@ function Skills() {
   };
   return (
     <section 
-      className="mySkill" 
+      className="d-flex flex-column align-items-center justify-content-center mySkill" 
       id="mySkills"
       style={{
         height: '100vh',
       }}
     >
-      <Container className="skill-project-bx">
+      <Container className="skill-project-bx" >
         <Row>
           <Col>
             <div className="skill-box">
@@ -170,5 +170,3 @@ function Skills() {
 }
 
 export default Skills;
-
-// did not take last commit for skills

@@ -40,7 +40,6 @@ function MyJourney() {
             alignItems: 'center',
           }}
           showControls
-          showIndicators
           dark
           interval={30000}
         >
@@ -65,7 +64,7 @@ function MyJourney() {
                 <MDBCardText>
                   Driven by a commitment to excellence with a desire to always
                   reach new heights, I approach every challenge with
-                  determination and a continuous will to upskill myself,
+                  determination and a continuous will to up-skill myself,
                   ensuring that I not only achieve the required results but also
                   exceed expectations. As a collaborative team player, I believe
                   in the power of teamwork. By recognizing and harnessing the
@@ -82,8 +81,8 @@ function MyJourney() {
                     height: '50%',
                     width: '60%',
                     justifyContent: 'center',
-                    borderColor: 'white',
-                    borderWidth: '3px',
+                    borderColor: 'yellow',
+                    borderWidth: '5px',
                     borderStyle: 'solid',
                     borderRadius: '30px',
                   }}
@@ -100,7 +99,7 @@ function MyJourney() {
                 color: 'Black',
                 maxWidth: '1200px',
                 borderColor: 'white',
-                borderWidth: '5px',
+                borderWidth: '8px',
                 borderStyle: 'solid',
                 borderRadius: '30px',
               }}
@@ -129,8 +128,8 @@ function MyJourney() {
                     height: '50%',
                     width: '60%',
                     justifyContent: 'center',
-                    borderColor: 'white',
-                    borderWidth: '3px',
+                    borderColor: 'yellow',
+                    borderWidth: '5px',
                     borderStyle: 'solid',
                     borderRadius: '30px',
                   }}
@@ -147,7 +146,7 @@ function MyJourney() {
                 color: 'Black',
                 maxWidth: '1200px',
                 borderColor: 'white',
-                borderWidth: '5px',
+                borderWidth: '8px',
                 borderStyle: 'solid',
                 borderRadius: '30px',
               }}
@@ -176,8 +175,8 @@ function MyJourney() {
                     height: '50%',
                     width: '60%',
                     justifyContent: 'center',
-                    borderColor: 'white',
-                    borderWidth: '3px',
+                    borderColor: 'yellow',
+                    borderWidth: '5px',
                     borderStyle: 'solid',
                     borderRadius: '30px',
                   }}
@@ -194,7 +193,7 @@ function MyJourney() {
                 color: 'Black',
                 maxWidth: '1200px',
                 borderColor: 'white',
-                borderWidth: '5px',
+                borderWidth: '8px',
                 borderStyle: 'solid',
                 borderRadius: '30px',
               }}
@@ -222,8 +221,8 @@ function MyJourney() {
                     height: '50%',
                     width: '60%',
                     justifyContent: 'center',
-                    borderColor: 'white',
-                    borderWidth: '3px',
+                    borderColor: 'yellow',
+                    borderWidth: '5px',
                     borderStyle: 'solid',
                     borderRadius: '30px',
                   }}

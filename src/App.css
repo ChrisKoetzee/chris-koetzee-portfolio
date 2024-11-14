@@ -94,7 +94,8 @@ body {
 }
 
 .skill-project-bx {
-  background: #323030;
+  background: #7fff00;
+  color: black;
   border: 5px solid white;
   border-radius: 64px;
   margin-top: auto;
@@ -119,7 +120,7 @@ body {
   background: #7fff00;
   border: 8px solid white;
   border-radius: 64px;
-  color: white;
+  color: black;
   margin-top: 5em;
   padding: 60px 50px;
   text-align: center;

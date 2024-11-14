@@ -168,7 +168,7 @@ function Projects() {
                     development skills as well as our agile methodologies.
                   </MDBCardText>
                   <MDBCardLink href="https://github.com/ChrisKoetzee/my-final-project">
-                    My Github link
+                    Github link
                   </MDBCardLink>
                 </MDBCardBody>
               </MDBCard>

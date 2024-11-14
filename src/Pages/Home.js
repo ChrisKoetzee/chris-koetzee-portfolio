@@ -34,10 +34,9 @@ function Home() {
         fluid
         className="d-flex flex-column justify-content-center home"
         style={{
-          height: '100vh',
-          width: '100%',
           marginTop: '10rem',
           paddingTop: '15rem',
+          height: '100vh',
         }}
       >
         <Row
@@ -83,11 +82,12 @@ function Home() {
               thumbnail
               className={imgIn ? 'slide-in' : 'slide-out'}
               style={{
-                height: '100%',
-                width: '50%',
+                height: '60%',
+                width: '45%',
+                margin: '3rem',
                 borderColor: '#7FFF00',
                 borderWidth: '3px',
-                borderStyle: 'solid',
+                borderStyle: 'solid', 
                 borderRadius: '30px',
                 transition: 'transform 1s ease-out',
               }}

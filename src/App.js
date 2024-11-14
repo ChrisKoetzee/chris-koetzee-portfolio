@@ -8,6 +8,7 @@ import MyJourney from './Pages/MyJourney';
 import MySkills from './Pages/Skills';
 import MyProjects from './Pages/Projects';
 import Footer from './Components/Footer';
+
 import './App.css';
 
 function App() {

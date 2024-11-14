@@ -17,6 +17,8 @@ body {
   width: 100vw;
 }
 
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
 /* .navbar {
   background: linear-gradient(
     to center,

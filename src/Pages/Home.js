@@ -87,8 +87,8 @@ function Home() {
               thumbnail
               className={imgIn ? 'slide-in' : 'slide-out'}
               style={{
-                height: '60%',
-                width: '50%',
+                height: '50%',
+                width: '40%',
                 margin: '3rem',
                 borderColor: '#7FFF00',
                 borderWidth: '3px',

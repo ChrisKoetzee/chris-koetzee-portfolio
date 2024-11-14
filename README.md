@@ -102,6 +102,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
                                     where you using the <ToastContainer/> -   import { ToastContainer, toast } from 'react-toastify';
     10. npm install react-multi-carousel -      and in your file where using -      import 'react-multi-carousel/lib/styles.css';
                                                 to use the Carousel from react multi carousel library
+    11. npm install @fortawesome/fontawesome-free
+
 
 
 

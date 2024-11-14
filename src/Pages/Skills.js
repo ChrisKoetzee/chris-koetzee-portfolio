@@ -32,7 +32,13 @@ function Skills() {
     },
   };
   return (
-    <section className="mySkill" id="mySkills">
+    <section 
+      className="mySkill" 
+      id="mySkills"
+      style={{
+        height: '100vh',
+      }}
+    >
       <Container className="skill-project-bx">
         <Row>
           <Col>

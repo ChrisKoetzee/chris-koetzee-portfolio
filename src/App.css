@@ -71,11 +71,7 @@ body {
 
 .home {
   position: relative;
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.5), 
-      rgba(0, 0, 0, 0.5)
-    ), 
-    url('/src/Images/HomeImages/homeImg.jpg');
+  background: url('/src/Images/HomeImages/homeImg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

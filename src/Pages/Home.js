@@ -45,7 +45,7 @@ function Home() {
         }}
       >
         <Row
-          className="w-100"
+          className="w-100 p-6"
           style={{
             height: '100vh',
             width: '100%',

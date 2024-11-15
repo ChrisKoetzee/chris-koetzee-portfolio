@@ -24,8 +24,8 @@ function MyJourney() {
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
-          marginTop: 'auto',
-          padding:' 60px 50px',
+          marginTop: '2rem',
+          paddingTop:'5rem',
           paddingBottom: '2rem',
         }}
       >

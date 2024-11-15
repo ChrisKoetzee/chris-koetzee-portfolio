@@ -40,7 +40,7 @@ function Home() {
         fluid
         className="d-flex flex-column justify-content-center home"
         style={{
-          paddingTop: '5rem',
+          paddingTop: 'calc(5rem + 50px)',
           height: '100vh',
         }}
       >
@@ -50,6 +50,7 @@ function Home() {
             height: '100vh',
             width: '100%',
             paddingLeft: '15%',
+            paddingTop: 'calc(5rem + 0.2rem)',
           }}
         >
           <Col
@@ -58,7 +59,7 @@ function Home() {
             md={12}
             lg={12}
             xl={6}
-            className="d-flex flex-column align-items-center justify-content-center "
+            className="d-flex flex-column align-items-center justify-content-center m-6"
           >
             <h3>Hi, my name is </h3>
             <h1>
@@ -89,7 +90,7 @@ function Home() {
               style={{
                 height: '50%',
                 width: '40%',
-                margin: '3rem',
+                margin: '2rem',
                 borderColor: '#7FFF00',
                 borderWidth: '3px',
                 borderStyle: 'solid', 

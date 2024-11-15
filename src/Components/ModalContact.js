@@ -61,7 +61,7 @@ function ModalContact() {
           toggleModal();
         },
         (error) => {
-          error.message('error loading');
+          console.error('Error sending email:', error.message);
           toast.error('Failed to send email.');
         },
       );

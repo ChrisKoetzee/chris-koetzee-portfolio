@@ -42,6 +42,7 @@ function Home() {
         style={{
           paddingTop: 'calc(5rem + 50px)',
           height: '100vh',
+
         }}
       >
         <Row
@@ -49,7 +50,6 @@ function Home() {
           style={{
             height: '100vh',
             width: '100%',
-            paddingLeft: '15%',
             paddingTop: 'calc(5rem + 0.2rem)',
           }}
         >
@@ -59,7 +59,7 @@ function Home() {
             md={12}
             lg={12}
             xl={6}
-            className="d-flex flex-column align-items-center justify-content-center m-6"
+            className="d-flex flex-column align-items-center justify-content-center text-center px-lg-5 px-md-4 px-sm-3 px-2"
           >
             <h3>Hi, my name is </h3>
             <h1>
@@ -69,8 +69,7 @@ function Home() {
             <h2>Welcome to my Portfolio Page</h2>
             <p style={{ color: 'yellow' }}>
               <strong>
-                Motivated career changer with a creative flair and a hunger to
-                learn
+                Motivated career changer with a creative flair and a hunger to learn
               </strong>
             </p>
           </Col>

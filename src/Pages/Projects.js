@@ -21,7 +21,8 @@ function Projects() {
       className="d-flex flex-column justify-content-space-between myProject" 
       id="myProjects" 
     >
-      <Container className="project-container">
+      <Container 
+        className="project-container">
         <div className="project-box">
           <h2>Projects</h2>
           <MDBRow className="p-3">

@@ -24,9 +24,11 @@ function App() {
       <ToastContainer />
       <Navbar />
       <Home />
-      <MyJourney />
-      <MySkills />
-      <MyProjects />
+      <div className='aboutMe'>
+        <MyJourney />
+        <MySkills />
+        <MyProjects />
+      </div>
       <Footer />
     </MDBContainer>
   );

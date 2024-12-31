@@ -4,9 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { MDBContainer } from 'mdb-react-ui-kit';
 import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
-import MyJourney from './Pages/MyJourney';
-import MySkills from './Pages/Skills';
 import MyProjects from './Pages/Projects';
+import MySkills from './Pages/Skills';
+import MyJourney from './Pages/MyJourney';
 import Footer from './Components/Footer';
 
 import './App.css';
@@ -25,9 +25,9 @@ function App() {
       <Navbar />
       <Home />
       <div className='aboutMe'>
-        <MyJourney />
-        <MySkills />
         <MyProjects />
+        <MySkills />
+        <MyJourney />
       </div>
       <Footer />
     </MDBContainer>

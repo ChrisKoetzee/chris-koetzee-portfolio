@@ -88,7 +88,7 @@ function Home() {
               className={imgIn ? 'slide-in' : 'slide-out'}
               style={{
                 height: '50%',
-                width: '40%',
+                width: '30%',
                 margin: '2rem',
                 borderColor: '#7FFF00',
                 borderWidth: '3px',

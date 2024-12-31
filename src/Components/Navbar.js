@@ -82,17 +82,17 @@ function Navbar() {
                   role="button"
                   style={{ color: '#7FFF00' }}
                 >
-                  More about me
+                  <strong>More about me</strong>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu style={{ backgroundColor: '#7FFF00' }}>
-                  <MDBDropdownItem link href="#myJourney">
-                    My Journey
+                <MDBDropdownItem link href="#myProjects">
+                    My Projects
                   </MDBDropdownItem>
                   <MDBDropdownItem link href="#mySkills">
                     My Skills
                   </MDBDropdownItem>
-                  <MDBDropdownItem link href="#myProjects">
-                    My Projects
+                  <MDBDropdownItem link href="#myJourney">
+                    My Journey
                   </MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>

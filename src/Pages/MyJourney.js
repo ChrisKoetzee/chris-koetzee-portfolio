@@ -19,14 +19,11 @@ function MyJourney() {
     <section id="myJourney">
       <MDBContainer
         style={{
-          height: '100vh',
           width: '100%',
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
-          marginTop: '2rem',
-          paddingTop:'5rem',
-          paddingBottom: '2rem',
+
         }}
       >
         <MDBCarousel

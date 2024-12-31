@@ -89,61 +89,12 @@ body {
   transform: translateX(0);
 }
 
-.aboutMe {
-  background-image: url('/src/Images/backgroundImage.png');
-  background-position: center;
-  background-repeat: repeat;
-  background-size: auto;
-  margin-top: 0;
-  padding-bottom: 8%;
-  padding-top: 0;
-}
-
-.skill {
-  padding: 0 0 50px;
-  position: relative;
-}
-
-.skill-box {
-  padding-top: 2rem;
-}
-
-.skill-box h2 {
-  display: flex;
-  font-size: 45px;
-  font-weight: 700;
-  justify-content: space-around;
-  padding-bottom: 5rem;
-  text-align: center;
-}
-
-.skill-project-bx {
-  background: #7fff00;
-  color: black;
-  border: 8px solid white;
-  border-radius: 64px;
-  padding: 60px 50px;
-  text-align: center;
-}
-
-.skill-slider {
-  margin: 0 auto;
-  position: relative;
-  width: 80%;
-}
-
-.skill-slider .item-img {
-  border: 5px solid yellow;
-  border-radius: 50%;
-  width: 50%;
-  margin: 0 auto 15px;
-}
-
 .project-box {
   background: #7fff00;
   border: 8px solid white;
   border-radius: 64px;
   color: black;
+  margin-top: 10rem;
   padding: 60px 50px;
   text-align: center;
 }
@@ -153,7 +104,7 @@ body {
   font-size: 45px;
   font-weight: 700;
   justify-content: space-around;
-  padding-bottom: 2rem;
+  padding: 1rem;
   text-align: center;
 }
 
@@ -197,6 +148,52 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+
+.aboutMe {
+  background-image: url('/src/Images/backgroundImage.png');
+  background-position: center;
+  background-repeat: repeat;
+  background-size: auto;
+}
+
+.skill {
+  position: relative;
+}
+
+.skill-box {
+  padding-top: 2rem;
+}
+
+.skill-project-bx {
+  background: #7fff00;
+  color: black;
+  border: 8px solid white;
+  border-radius: 64px;
+  padding: 60px 50px;
+  text-align: center;
+}
+
+.skill-box h2 {
+  display: flex;  
+  font-size: 45px;
+  font-weight: 700;
+  justify-content: space-around;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+.skill-slider {
+  margin: 0 auto;
+  position: relative;
+  width: 80%;
+}
+
+.skill-slider .item-img {
+  border: 5px solid yellow;
+  border-radius: 50%;
+  width: 50%;
 }
 
 .footer {

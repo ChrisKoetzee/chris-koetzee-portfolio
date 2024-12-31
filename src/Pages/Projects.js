@@ -44,7 +44,7 @@ function Projects() {
             <MDBCol className="p-3" xs={12} md={6} lg={6} xl={4}>
               <MDBCard className="project-cards">
                 <MDBCardBody className="cards-body">
-                  <a href="https://recipes-galore-jsrv.onrender.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://netlify-errors--recipes-galore.netlify.app/" target="_blank" rel="noopener noreferrer">
                     <MDBCardImage className="project-img" position="top" alt="Recipes Galore website" src={Recipes} />
                   </a>
                   <MDBCardTitle><strong>Recipes Galore Project</strong></MDBCardTitle>

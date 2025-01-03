@@ -73,7 +73,6 @@ body {
   z-index: 0;
 }
 
-/* Ensure content inside .home appears above the overlay */
 .home * {
   position: relative;
   z-index: 0;

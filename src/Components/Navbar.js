@@ -80,9 +80,9 @@ function Navbar() {
                   tag="a"
                   className="nav-link"
                   role="button"
-                  style={{ color: '#7FFF00' }}
+                  style={{ color: '#7FFF00', fontSize: '1.5rem', fontWeight: 'bold' }}
                 >
-                  <strong>More about me</strong>
+                  More about me
                 </MDBDropdownToggle>
                 <MDBDropdownMenu style={{ backgroundColor: '#7FFF00' }}>
                 <MDBDropdownItem link href="#myProjects">
@@ -113,6 +113,8 @@ function Navbar() {
             className="m-1"
             style={{ backgroundColor: '#0082ca' }}
             href="https://www.linkedin.com/in/christopherkoetzee/"
+            target="_blank"
+            rel="noopener noreferrer"
             role="button"
           >
             <MDBIcon fab icon="linkedin-in" />
@@ -122,6 +124,8 @@ function Navbar() {
             className="m-1"
             style={{ backgroundColor: '#333333' }}
             href="https://github.com/ChrisKoetzee"
+            target="_blank"
+            rel="noopener noreferrer"
             role="button"
           >
             <MDBIcon fab icon="github" />

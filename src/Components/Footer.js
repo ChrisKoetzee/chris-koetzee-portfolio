@@ -30,7 +30,6 @@ function Footer() {
         <MDBRow>
           <MDBCol>
             <div>
-              <p>Click here to contact me</p>
               <ModalContact />
               <ToastContainer />
             </div>

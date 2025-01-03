@@ -81,17 +81,17 @@ function ModalContact() {
         onClose={() => setFormOpen(false)}
       >
         <MDBModalDialog centered>
-          <MDBModalContent>
+          <MDBModalContent style={{color: 'black', backgroundColor: '#7fff00' }}>
             <MDBModalHeader>
               <MDBModalTitle>Please complete the form below</MDBModalTitle>
             </MDBModalHeader>
-            <MDBModalBody>
+            <MDBModalBody style={{color: 'black'}}>
               <form ref={Form} onSubmit={submitForm}>
                 <MDBInput
                   className="mb-4"
                   type="text"
                   id="Name"
-                  label="Name and Surname"
+                  placeholder="Name and Surname"
                   name="user_name"
                   value={formData.user_name}
                   onChange={handleInputChange}
@@ -100,7 +100,7 @@ function ModalContact() {
                   className="mb-4"
                   type="email"
                   id="email"
-                  label="Email address"
+                  placeholder="Email address"
                   name="user_email"
                   value={formData.user_email}
                   onChange={handleInputChange}
@@ -109,7 +109,7 @@ function ModalContact() {
                   wrapperClass="mb-4"
                   id="textarea"
                   rows={4}
-                  label="Message"
+                  placeholder="Message"
                   style={{
                     minHeight: '100px',
                     resize: 'vertical',
@@ -118,10 +118,15 @@ function ModalContact() {
                   value={formData.user_message}
                   onChange={handleInputChange}
                 />
-                <MDBInput className="mb-4" type="submit" value="Send" />
+                <MDBInput 
+                  className="mb-4" 
+                  type="submit" 
+                  value="Send" 
+                  style={{color: 'black', backgroundColor: '#efffde', fontSize: '1.5rem', fontWeight: 'bold' }} 
+                />
               </form>
             </MDBModalBody>
-            <MDBModalFooter>
+            <MDBModalFooter >
               <h5>Thank you and enjoy your day.</h5>
             </MDBModalFooter>
           </MDBModalContent>

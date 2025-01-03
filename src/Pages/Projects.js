@@ -36,7 +36,13 @@ function Projects() {
                   <MDBCardText>
                     This website, <strong>Umfazi Clean and Tidy</strong>, was developed for a community-based cleaning company.
                   </MDBCardText>
-                  <MDBCardLink href="https://github.com/ChrisKoetzee/Clean-And-Tidy-Bros">Github Link</MDBCardLink>
+                  <MDBCardLink 
+                    href="https://github.com/ChrisKoetzee/Clean-And-Tidy-Bros" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    Github Link
+                  </MDBCardLink>
                 </MDBCardBody>
               </MDBCard>
             </MDBCol>
@@ -51,22 +57,13 @@ function Projects() {
                   <MDBCardText>
                     Recipes Galore offers a platform for users to share recipes with ingredients and videos all in the convenience of one place.
                   </MDBCardText>
-                  <MDBCardLink href="https://github.com/ChrisKoetzee/Recipes-Galore">Github Link</MDBCardLink>
-                </MDBCardBody>
-              </MDBCard>
-            </MDBCol>
-
-            <MDBCol className="p-3" xs={12} md={6} lg={6} xl={4}>
-              <MDBCard className="project-cards">
-                <MDBCardBody className="cards-body">
-                  <a href="https://cyf-chriskoetzee-tv.netlify.app/" target="_blank" rel="noopener noreferrer">
-                    <MDBCardImage className="project-img" position="top" alt="TV Shows Project" src={TVShows} />
-                  </a>
-                  <MDBCardTitle><strong>My TV Shows Project</strong></MDBCardTitle>
-                  <MDBCardText>
-                    A project using an API to pull TV show information using DOM manipulation.
-                  </MDBCardText>
-                  <MDBCardLink href="https://github.com/ChrisKoetzee/tv-show-dom-project">Github Link</MDBCardLink>
+                  <MDBCardLink 
+                    href="https://github.com/ChrisKoetzee/Recipes-Galore"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Github Link
+                  </MDBCardLink>
                 </MDBCardBody>
               </MDBCard>
             </MDBCol>
@@ -81,7 +78,34 @@ function Projects() {
                   <MDBCardText>
                     Created for a school to manage tasks, involving collaboration with multiple developers using Agile methodology.
                   </MDBCardText>
-                  <MDBCardLink href="https://github.com/ChrisKoetzee/my-final-project">Github Link</MDBCardLink>
+                  <MDBCardLink 
+                    href="https://github.com/ChrisKoetzee/my-final-project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Github Link
+                  </MDBCardLink>
+                </MDBCardBody>
+              </MDBCard>
+            </MDBCol>
+
+            <MDBCol className="p-3" xs={12} md={6} lg={6} xl={4}>
+              <MDBCard className="project-cards">
+                <MDBCardBody className="cards-body">
+                  <a href="https://cyf-chriskoetzee-tv.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <MDBCardImage className="project-img" position="top" alt="TV Shows Project" src={TVShows} />
+                  </a>
+                  <MDBCardTitle><strong>My TV Shows Project</strong></MDBCardTitle>
+                  <MDBCardText>
+                    A project using an API to pull TV show information using DOM manipulation.
+                  </MDBCardText>
+                  <MDBCardLink
+                    href="https://github.com/ChrisKoetzee/tv-show-dom-project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Github Link
+                  </MDBCardLink>
                 </MDBCardBody>
               </MDBCard>
             </MDBCol>

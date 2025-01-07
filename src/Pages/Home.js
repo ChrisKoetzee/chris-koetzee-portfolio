@@ -61,7 +61,7 @@ function Home() {
             xl={6}
             className="d-flex flex-column align-items-center justify-content-center text-center px-lg-5 px-md-4 px-sm-3 px-2"
           >
-            <h3>Hi, my name is </h3>
+            <h1>Hi, my name is </h1>
             <h1>
               <strong>Christopher Koetzee</strong>
             </h1>
@@ -84,6 +84,7 @@ function Home() {
             <Image
               id="chris-img"
               src={ChrisImg}
+              alt="Image of Chris smiling in a greenery background"
               thumbnail
               className={imgIn ? 'slide-in' : 'slide-out'}
               style={{

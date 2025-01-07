@@ -5,7 +5,6 @@ import {
   MDBCarouselItem,
   MDBCard,
   MDBCardBody,
-  MDBCardTitle,
   MDBCardText,
   MDBCardImage,
 } from 'mdb-react-ui-kit';
@@ -55,9 +54,9 @@ function MyJourney() {
               }}
             >
               <MDBCardBody>
-                <MDBCardTitle>
+                <h2>
                   <strong>About Me</strong>
-                </MDBCardTitle>
+                </h2>
                 <MDBCardText>
                   Driven by a commitment to excellence with a desire to always
                   reach new heights, I approach every challenge with
@@ -102,9 +101,9 @@ function MyJourney() {
               }}
             >
               <MDBCardBody>
-                <MDBCardTitle>
+                <h2>
                   <strong>In the Beginning</strong>
-                </MDBCardTitle>
+                </h2>
                 <MDBCardText>
                   My journey into coding began with the support and
                   encouragement of my wife, who recognized my natural aptitude
@@ -149,9 +148,9 @@ function MyJourney() {
               }}
             >
               <MDBCardBody>
-                <MDBCardTitle>
+                <h2>
                   <strong>The finish line</strong>
-                </MDBCardTitle>
+                </h2>
                 <MDBCardText>
                   As I look back, reaching the finish line, I can proudly
                   reflect on my journey from knowing nothing about coding to
@@ -196,9 +195,9 @@ function MyJourney() {
               }}
             >
               <MDBCardBody>
-                <MDBCardTitle>
+                <h2>
                   <strong>Whats next</strong>
-                </MDBCardTitle>
+                </h2>
                 <MDBCardText>
                   One of my core beliefs, shaped by my experience with
                   basketball, is to support and mentor those who are interested

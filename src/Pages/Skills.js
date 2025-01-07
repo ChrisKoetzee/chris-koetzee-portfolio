@@ -62,7 +62,7 @@ function Skills() {
                       width: '200px',
                     }}
                   />
-                  <h5>Web Development</h5>
+                  <h3>Web Development</h3>
                 </div>
                 <div className="item">
                   <img
@@ -74,7 +74,7 @@ function Skills() {
                       width: '200px',
                     }}
                   />
-                  <h5>HTML</h5>
+                  <h3>HTML</h3>
                 </div>
                 <div className="item">
                   <img
@@ -86,7 +86,7 @@ function Skills() {
                       width: '200px',
                     }}
                   />
-                  <h5>CSS</h5>
+                  <h3>CSS</h3>
                 </div>
                 <div className="item">
                   <img
@@ -98,7 +98,7 @@ function Skills() {
                       width: '200px',
                     }}
                   />
-                  <h5>JavaScript</h5>
+                  <h3>JavaScript</h3>
                 </div>
                 <div className="item">
                   <img
@@ -110,7 +110,7 @@ function Skills() {
                       width: '200px',
                     }}
                   />
-                  <h5>Node.js</h5>
+                  <h3>Node.js</h3>
                 </div>
                 <div className="item">
                   <img
@@ -122,7 +122,7 @@ function Skills() {
                       width: '200px',
                     }}
                   />
-                  <h5>PostgreSQL</h5>
+                  <h3>PostgreSQL</h3>
                 </div>
                 <div className="item">
                   <img
@@ -134,7 +134,7 @@ function Skills() {
                       width: '200px',
                     }}
                   />
-                  <h5>Reactjs</h5>
+                  <h3>Reactjs</h3>
                 </div>
                 <div className="item">
                   <img
@@ -146,7 +146,7 @@ function Skills() {
                       width: '200px',
                     }}
                   />
-                  <h5>Problem solving</h5>
+                  <h3>Problem solving</h3>
                 </div>
                 <div className="item">
                   <img
@@ -158,7 +158,7 @@ function Skills() {
                       width: '200px',
                     }}
                   />
-                  <h5>Agile methodologies</h5>
+                  <h3>Agile methodologies</h3>
                 </div>
               </Carousel>
             </div>

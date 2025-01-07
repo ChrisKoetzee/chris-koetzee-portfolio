@@ -41,6 +41,7 @@ function Footer() {
                 className="m-1"
                 style={{ backgroundColor: '#0082ca' }}
                 href="https://www.linkedin.com/in/christopherkoetzee/"
+                alt="Link to LinkedIn profile page"
                 role="button"
               >
                 <MDBIcon fab icon="linkedin-in" />
@@ -50,6 +51,7 @@ function Footer() {
                 className="m-1"
                 style={{ backgroundColor: '#333333' }}
                 href="https://github.com/ChrisKoetzee"
+                alt="Link to my Github profile page"
                 role="button"
               >
                 <MDBIcon fab icon="github" />
@@ -66,7 +68,7 @@ function Footer() {
           ©
           <span>{currentYear}</span>
           <span>Copyright:</span>
-          <a className="text-white" href="https://mdbootstrap.com/">
+          <a className="text-white" href="https://chris-koetzee-my-portfolio.netlify.app/" alt="Link to My Portfolio page">
             TnT-Development
           </a>
         </div>

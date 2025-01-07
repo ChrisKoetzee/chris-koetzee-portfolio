@@ -47,7 +47,7 @@ function Navbar() {
         <div className="d-flex align-items-center">
           <MDBNavbarBrand
             href="#home"
-            alt="takes you to home page"
+            aria-label="takes you to home page"
             style={{
               color: '#7FFF00',
               padding: '1rem',
@@ -86,13 +86,13 @@ function Navbar() {
                   More about me
                 </MDBDropdownToggle>
                 <MDBDropdownMenu style={{ backgroundColor: '#7FFF00' }}>
-                <MDBDropdownItem link href="#myProjects" alt="Link to projects section">
+                <MDBDropdownItem link href="#myProjects" aria-label="Link to projects section">
                     My Projects
                   </MDBDropdownItem>
-                  <MDBDropdownItem link href="#mySkills" alt="Link to skills section">
+                  <MDBDropdownItem link href="#mySkills" aria-label="Link to skills section">
                     My Skills
                   </MDBDropdownItem>
-                  <MDBDropdownItem link href="#myJourney" alt="Link to my journey section section">
+                  <MDBDropdownItem link href="#myJourney" aria-label="Link to my journey section section">
                     My Journey
                   </MDBDropdownItem>
                 </MDBDropdownMenu>
@@ -114,7 +114,7 @@ function Navbar() {
             className="m-1"
             style={{ backgroundColor: '#0082ca' }}
             href="https://www.linkedin.com/in/christopherkoetzee/"
-            alt="Link to my LinkedIn profile page"
+            aria-label="Link to my LinkedIn profile page"
             target="_blank"
             rel="noopener noreferrer"
             role="button"
@@ -126,7 +126,7 @@ function Navbar() {
             className="m-1"
             style={{ backgroundColor: '#333333' }}
             href="https://github.com/ChrisKoetzee"
-            alt="Link to my Github page"
+            aria-label="Link to my Github page"
             target="_blank"
             rel="noopener noreferrer"
             role="button"
